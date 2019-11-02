@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/dashboard"></item>
+    <item
+        android:id="@+id/my_profile"
+        android:title="@string/my_profile"
+        android:icon="@drawable/ic_person_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="My Fasting History"></item>
+
+    <item
+        android:id="@+id/fasting_tips"
+        android:title="Fasting Tips For You!"
+        android:icon="@drawable/ic_assistant_black_24dp">
+    </item>
+
+</menu>
